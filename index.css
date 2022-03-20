@@ -207,6 +207,12 @@ margin:50px auto;
   
 }
 
+.prices a{
+  text-decoration: none;
+  padding:10px 30px;
+  border-radius: 5px;
+}
+
 #basic, #advanced, #premium{
   background-color: #D5F5E3;
   padding:30px 60px;
@@ -215,11 +221,45 @@ margin:50px auto;
   text-align: left;
   border-radius:5px;
 }
+
+#basic a{
+  color:#fcfeff;
+  background-color: #11a683;
+}
+#advanced{
+  background-color: #3250C3;
+  color:#fcfeff;
+
+}
+#premium{
+  background-color: #11a683;
+  color:#fcfeff;
+}
 #basic i, #advanced i, #premium i{
   color:#D5F5E3;
   background-color:  #11a683;
   border-radius: 5px;
   padding:3px;
+}
+
+#advanced i{
+  color:#3250C3;
+  background-color: #849fff;
+}
+
+#advanced a{
+  color:#fcfeff;
+  background-color: #849fff;
+}
+#premium i{
+  background-color: #D5F5E3;
+  color:#11a683;
+
+}
+
+#premium a{
+  color:#000;
+  background-color: #D5F5E3;
 }
 .word{
 	font-size: 20px;
