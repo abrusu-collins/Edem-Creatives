@@ -4,8 +4,7 @@
 	margin:0;
 	padding: 0;
 scroll-behavior: smooth;
-	font-family: 'Roboto', sans-serif;
-}
+font-family: 'Space Grotesk', sans-serif;}
 html{
 	background-color:#ffffff  ;
 color: #000000;
@@ -305,7 +304,7 @@ align-items: center;
 	padding: 30px;
 	margin-top: 30px ;
 	text-align: center;
-	background-color: #11a683;
+	background-color: #849fff;
   color: #fcfeff;
 }
 
