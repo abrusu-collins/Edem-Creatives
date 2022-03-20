@@ -16,10 +16,10 @@ body{
 img{
 	width:100%;
 }
-img:hover{
+/* img:hover{
 
   transform: scale(2,2)
-}
+} */
 
 /* navbar */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -280,11 +280,25 @@ margin:50px auto;
 }
 
 .about{
-width: 60%;
+width: 70%;
 padding: 30px;
 margin:20px auto;
-color:#11a683;
+color:#fcfeff;
+background-color: #3250C3;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
 
+}
+
+.about img{
+  width:40%;
+}
+
+#abdiv{
+  display: grid;
+  grid-gap:20px;
 }
 
 .footer{
