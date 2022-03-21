@@ -380,6 +380,33 @@ align-items: center;
 
 
 /*media QUeries*/
+@media(max-width:1312px){
+
+  #basic, #advanced, #premium{
+
+  padding:30px 50px;
+  }
+
+}
+
+@media(max-width:1234px){
+  #basic, #advanced, #premium{
+
+    padding:30px 40px;
+    }
+}
+
+/* 
+@media(max-width:1137px){
+  .prices{  flex-direction: column;
+  }
+
+  #basic, #advanced, #premium{
+
+    padding:30px 80px;
+    margin: 20px auto;
+    }
+} */
 @media(max-width: 1024px){
 .pics{
   width:80%;
