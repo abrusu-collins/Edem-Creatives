@@ -238,8 +238,8 @@ margin:50px auto;
 #basic i, #advanced i, #premium i{
   color:#D5F5E3;
   background-color:  #11a683;
-  border-radius: 5px;
-  padding:3px;
+  border-radius: 50%;
+  padding:3px 3px;
 }
 
 #advanced i{
@@ -261,6 +261,8 @@ margin:50px auto;
   color:#000;
   background-color: #D5F5E3;
 }
+
+
 .word{
 	font-size: 20px;
 }
