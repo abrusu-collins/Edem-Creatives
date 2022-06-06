@@ -597,16 +597,35 @@ padding: 30px;
 @media (max-width:1126px) {
   .prices{
 	
-    /* width:70%;
-    padding: 20px 30px;
-    margin: 40px auto;
-    text-align: center; */
   
-    display: grid;
-    grid-template-rows:repeat(3,1fr);
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     
+  
+   
+    flex-direction: column;
+    gap:1rem;
   }
+#basic,#advanced,#premium{
+  width:50%;
+  text-align: center;
+}
+}
 
+
+@media (max-width:871px) {
+  #basic,#advanced,#premium{
+    width:80%;
+  }
+}
+
+@media (max-width:556px) {
+  #basic,#advanced,#premium{
+    width:90%;
+  }
+}
+
+@media (max-width:419px) {
+  #basic,#advanced,#premium{
+    width:120%;
+  }
 }
