@@ -9,9 +9,7 @@ html{
 	background-color:#ffffff  ;
 color: #000000;
 }
-body{
-	
-}
+
 img{
 	width:100%;
 }
@@ -413,14 +411,7 @@ align-items: center;
 .pics{
   width:80%;
 }
-.condetails{
 
-width:60%;
-margin: 30px auto;
-text-align: center;
-padding: 40px;
-
-}
 
 
 }
@@ -434,16 +425,26 @@ padding: 40px;
   width:70%;
   margin: auto;
 }
-.condetails{
+
+.contacts,.abpic,.pricing{
+
+  width:100%;
+  border-radius: 0;
+}
+
+.condetails,.about{
 
 width:60%;
 margin: 30px auto;
 text-align: center;
 padding: 40px;
 
+flex-direction: column;
 }
 
-
+.condetails img,.about img{
+  width:80%;
+}
 }
 
 
@@ -475,7 +476,7 @@ padding: 50px;
   width:80%;
   margin: auto;
 }
-.condetails{
+.condetails,.about{
 
 width:80%;
 margin: 30px auto;
@@ -483,10 +484,7 @@ text-align: center;
 padding: 50px;
 
 }
-.contacts,.abpic,.pricing{
 
-  width:90%;
-}
 
 }
 
@@ -533,7 +531,7 @@ padding: 50px;
 
   margin-bottom:0;
 }
-.condetails{
+.condetails,.about{
 
 width:100%;
 margin:0;
@@ -543,11 +541,18 @@ border-radius:0;
 
 }
 
-
-.abpic{
-  margin-top: 0px;
+.footer{
+	margin-top: 0 ;
 }
-
+.abpic{
+  margin: 0px;
+}
+.pricing{
+  margin-top: 0;
+}
+.pics{
+  grid-gap:3rem;
+}
 }
 @media(max-width: 491px){
 
@@ -570,6 +575,15 @@ margin:0;
 text-align: center;
 padding: 30px;
 
+}
+
+}
+
+
+@media(max-width: 375px){
+
+.condetails img, .about img{
+  width:100%;
 }
 
 }
