@@ -553,6 +553,10 @@ border-radius:0;
 .pics{
   grid-gap:3rem;
 }
+.pics img{
+  width:80%;
+
+}
 }
 @media(max-width: 491px){
 
