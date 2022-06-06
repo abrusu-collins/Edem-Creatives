@@ -591,3 +591,22 @@ padding: 30px;
 }
 
 }
+
+/*Pricing Responsiveness*/
+
+@media (max-width:1126px) {
+  .prices{
+	
+    /* width:70%;
+    padding: 20px 30px;
+    margin: 40px auto;
+    text-align: center; */
+  
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+}
