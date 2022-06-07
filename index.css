@@ -603,7 +603,7 @@ padding: 30px;
   
    
     flex-direction: column;
-    gap:1rem;
+    gap:3rem;
   }
 #basic,#advanced,#premium{
   width:50%;
