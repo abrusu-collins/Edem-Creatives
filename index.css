@@ -603,11 +603,13 @@ padding: 30px;
   
    
     flex-direction: column;
-    gap:3rem;
   }
 #basic,#advanced,#premium{
   width:50%;
   text-align: center;
+}
+#basic,#advanced{
+  margin-bottom: 1rem;
 }
 }
 
