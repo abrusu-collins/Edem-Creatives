@@ -650,3 +650,11 @@ padding: 30px;
     width:120%;
   }
 }
+
+/* footer responsiveness*/
+@media  (max-width:354px) {
+  .footer{
+font-size: 12px;
+  }
+  
+}
