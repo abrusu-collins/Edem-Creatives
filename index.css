@@ -143,12 +143,16 @@ background-size: cover;
 display: flex;
 text-align: center;
 align-items: flex-end;
-justify-content: right;
+justify-content: center;
 background-attachment: fixed;
 color: white;
 }
 .c a{
 	color: white;
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
 }
 
 .projects h1{
@@ -377,7 +381,20 @@ align-items: center;
 
 
 
-
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+}
+30% {
+    transform: translateY(-10px);
+}
+50% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(0);
+}
+}
 
 /*media QUeries*/
 @media(max-width:1312px){
