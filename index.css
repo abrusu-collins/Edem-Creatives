@@ -38,6 +38,7 @@ img{
   overflow: hidden;
   transition: height .5s ease-in-out;
   position: fixed;
+  z-index: 1000;
 }
 .nav-brand, .nav-link, .nav-collapse {
   display: inline-block;
@@ -149,6 +150,7 @@ color: white;
 }
 .c a{
 	color: white;
+  margin-bottom: 10px;
   animation-name: bounce;
   animation-timing-function: ease;
   animation-duration: 2s;
